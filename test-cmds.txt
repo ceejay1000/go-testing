@@ -1,0 +1,14 @@
+- go test .
+  Runs test
+
+- go test -v .
+  Runs tests in verbose mode
+
+- go test -cover .
+ Runs test with coverage
+
+- go test -coverprofile=coverage.out
+ Runs test and outputs test coverage results in coverage.out file
+
+- go tool cover -html=coverage.out
+ Opens test coverage in the browser
